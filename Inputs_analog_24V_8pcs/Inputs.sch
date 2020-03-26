@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Screw_Terminal_01x03 J?
-U 1 1 5E85AD09
-P 750 1700
-AR Path="/5E85AD09" Ref="J?"  Part="1" 
-AR Path="/5E9DF410/5E85AD09" Ref="J?"  Part="1" 
-AR Path="/5EB670BF/5E85AD09" Ref="J4"  Part="1" 
-F 0 "J4" H 668 1467 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 668 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 750 1700 50  0001 C CNN
-F 3 "~" H 750 1700 50  0001 C CNN
-	1    750  1700
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E85AD15
 P 1950 2000
@@ -266,26 +252,6 @@ Wire Wire Line
 Connection ~ 1300 900 
 Wire Wire Line
 	1700 1200 1300 1200
-$Comp
-L Device:C C?
-U 1 1 5E8BF744
-P 1000 2000
-AR Path="/5E8BF744" Ref="C?"  Part="1" 
-AR Path="/5E9DF410/5E8BF744" Ref="C?"  Part="1" 
-AR Path="/5EB670BF/5E8BF744" Ref="C4"  Part="1" 
-F 0 "C4" H 1115 2046 50  0000 L CNN
-F 1 "0,1μF" H 1115 1955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1038 1850 50  0001 C CNN
-F 3 "~" H 1000 2000 50  0001 C CNN
-	1    1000 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 1850 1000 1800
-Wire Wire Line
-	1000 2150 1000 2200
-Wire Wire Line
-	1000 2200 1700 2200
 $Comp
 L Connector:Screw_Terminal_01x03 J?
 U 1 1 5E968288
@@ -2367,7 +2333,6 @@ F 3 "~" H 4300 1700 50  0001 C CNN
 	1    4300 1700
 	-1   0    0    1   
 $EndComp
-Connection ~ 1000 1800
 Wire Wire Line
 	1000 850  1000 1800
 $Comp
@@ -2461,4 +2426,119 @@ Wire Wire Line
 Connection ~ 10600 1800
 Wire Wire Line
 	10600 1800 10600 2200
+Connection ~ 1000 1800
+Wire Wire Line
+	1000 2200 1700 2200
+Wire Wire Line
+	1000 2150 1000 2200
+Wire Wire Line
+	1000 1850 1000 1800
+$Comp
+L Device:C C?
+U 1 1 5E8BF744
+P 1000 2000
+AR Path="/5E8BF744" Ref="C?"  Part="1" 
+AR Path="/5E9DF410/5E8BF744" Ref="C?"  Part="1" 
+AR Path="/5EB670BF/5E8BF744" Ref="C4"  Part="1" 
+F 0 "C4" H 1115 2046 50  0000 L CNN
+F 1 "0,1μF" H 1115 1955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1038 1850 50  0001 C CNN
+F 3 "~" H 1000 2000 50  0001 C CNN
+	1    1000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E85AD09
+P 750 1700
+AR Path="/5E85AD09" Ref="J?"  Part="1" 
+AR Path="/5E9DF410/5E85AD09" Ref="J?"  Part="1" 
+AR Path="/5EB670BF/5E85AD09" Ref="J4"  Part="1" 
+F 0 "J4" H 668 1467 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 668 1466 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 750 1700 50  0001 C CNN
+F 3 "~" H 750 1700 50  0001 C CNN
+	1    750  1700
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	850  1850 1600 1850
+Wire Notes Line
+	1600 1850 1600 2350
+Wire Notes Line
+	1600 2350 850  2350
+Wire Notes Line
+	850  1850 850  2350
+Text Notes 900  2300 0    50   ~ 0
+Optional
+Wire Notes Line
+	4400 1850 5150 1850
+Wire Notes Line
+	5150 1850 5150 2350
+Text Notes 4450 2300 0    50   ~ 0
+Optional
+Wire Notes Line
+	5150 2350 4400 2350
+Wire Notes Line
+	4400 1850 4400 2350
+Wire Notes Line
+	8700 1850 8700 2350
+Text Notes 8000 2300 0    50   ~ 0
+Optional
+Wire Notes Line
+	8700 2350 7950 2350
+Wire Notes Line
+	7950 1850 7950 2350
+Wire Notes Line
+	8700 3800 8700 4300
+Text Notes 8000 4250 0    50   ~ 0
+Optional
+Wire Notes Line
+	8700 4300 7950 4300
+Wire Notes Line
+	7950 3800 7950 4300
+Wire Notes Line
+	5150 3800 5150 4300
+Text Notes 4450 4250 0    50   ~ 0
+Optional
+Wire Notes Line
+	5150 4300 4400 4300
+Wire Notes Line
+	4400 3800 4400 4300
+Wire Notes Line
+	1600 3800 1600 4300
+Text Notes 900  4250 0    50   ~ 0
+Optional
+Wire Notes Line
+	1600 4300 850  4300
+Wire Notes Line
+	850  3800 850  4300
+Wire Notes Line
+	1600 5750 1600 6250
+Text Notes 900  6200 0    50   ~ 0
+Optional
+Wire Notes Line
+	1600 6250 850  6250
+Wire Notes Line
+	850  5750 850  6250
+Wire Notes Line
+	5150 5750 5150 6250
+Text Notes 4450 6200 0    50   ~ 0
+Optional
+Wire Notes Line
+	5150 6250 4400 6250
+Wire Notes Line
+	4400 5750 4400 6250
+Wire Notes Line
+	7950 1850 8700 1850
+Wire Notes Line
+	7950 3800 8700 3800
+Wire Notes Line
+	4400 3800 5150 3800
+Wire Notes Line
+	850  3800 1600 3800
+Wire Notes Line
+	850  5750 1600 5750
+Wire Notes Line
+	4400 5750 5150 5750
 $EndSCHEMATC
