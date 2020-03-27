@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Analog inputs 24V"
-Date "2020-02-29"
+Date "2020-03-27"
 Rev "1"
 Comp ""
-Comment1 ""
+Comment1 "SomeController"
 Comment2 "Ivan Semenkov"
 Comment3 ""
 Comment4 ""
