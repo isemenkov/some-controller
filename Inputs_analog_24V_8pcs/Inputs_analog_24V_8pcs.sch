@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Inputs_analog_24V_8pcs-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -67,7 +68,7 @@ U 1 1 5E9127C8
 P 1050 1550
 F 0 "J1" H 968 1317 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 968 1676 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1050 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 1550 50  0001 C CNN
 F 3 "~" H 1050 1550 50  0001 C CNN
 	1    1050 1550
 	-1   0    0    1   
@@ -238,7 +239,7 @@ U 1 1 5E8EC43C
 P 5150 3500
 F 0 "J3" H 5230 3492 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" H 5230 3401 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5150 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5150 3500 50  0001 C CNN
 F 3 "~" H 5150 3500 50  0001 C CNN
 	1    5150 3500
 	1    0    0    -1  
@@ -260,7 +261,7 @@ U 1 1 5E9433F5
 P 1550 2100
 F 0 "D1" V 1589 2178 50  0000 L CNN
 F 1 "LED" V 1498 2178 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 1550 2100 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 1550 2100 50  0001 C CNN
 F 3 "~" H 1550 2100 50  0001 C CNN
 	1    1550 2100
 	0    1    -1   0   
@@ -327,7 +328,7 @@ U 1 1 5E9F3EB0
 P 2550 1550
 F 0 "J2" H 2468 1317 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2468 1676 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2550 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2550 1550 50  0001 C CNN
 F 3 "~" H 2550 1550 50  0001 C CNN
 	1    2550 1550
 	-1   0    0    1   
@@ -357,7 +358,7 @@ U 1 1 5E9F3EC1
 P 3050 2100
 F 0 "D2" V 3089 2178 50  0000 L CNN
 F 1 "LED" V 2998 2178 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 3050 2100 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 3050 2100 50  0001 C CNN
 F 3 "~" H 3050 2100 50  0001 C CNN
 	1    3050 2100
 	0    1    -1   0   

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Inputs_analog_24V_8pcs-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -96,7 +97,7 @@ AR Path="/5E9DF410/5E85AD35" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5E85AD35" Ref="D3"  Part="1" 
 F 0 "D3" V 1247 1128 50  0000 L CNN
 F 1 "LED 5V" V 1338 1128 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 1300 1050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 1300 1050 50  0001 C CNN
 F 3 "~" H 1300 1050 50  0001 C CNN
 	1    1300 1050
 	0    1    1    0   
@@ -261,7 +262,7 @@ AR Path="/5E9DF410/5E968288" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5E968288" Ref="J5"  Part="1" 
 F 0 "J5" H 668 3417 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 668 3416 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 750 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 750 3650 50  0001 C CNN
 F 3 "~" H 750 3650 50  0001 C CNN
 	1    750  3650
 	-1   0    0    1   
@@ -363,7 +364,7 @@ AR Path="/5E9DF410/5E9682B4" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5E9682B4" Ref="D4"  Part="1" 
 F 0 "D4" V 1247 3078 50  0000 L CNN
 F 1 "LED 5V" V 1338 3078 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 1300 3000 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 1300 3000 50  0001 C CNN
 F 3 "~" H 1300 3000 50  0001 C CNN
 	1    1300 3000
 	0    1    1    0   
@@ -558,7 +559,7 @@ AR Path="/5E9DF410/5E9AC443" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5E9AC443" Ref="J6"  Part="1" 
 F 0 "J6" H 668 5367 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 668 5366 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 750 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 750 5600 50  0001 C CNN
 F 3 "~" H 750 5600 50  0001 C CNN
 	1    750  5600
 	-1   0    0    1   
@@ -660,7 +661,7 @@ AR Path="/5E9DF410/5E9AC46F" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5E9AC46F" Ref="D5"  Part="1" 
 F 0 "D5" V 1247 5028 50  0000 L CNN
 F 1 "LED 5V" V 1338 5028 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 1300 4950 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 1300 4950 50  0001 C CNN
 F 3 "~" H 1300 4950 50  0001 C CNN
 	1    1300 4950
 	0    1    1    0   
@@ -855,7 +856,7 @@ AR Path="/5E9DF410/5EA38B5B" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5EA38B5B" Ref="J8"  Part="1" 
 F 0 "J8" H 4218 3417 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4218 3416 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4300 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4300 3650 50  0001 C CNN
 F 3 "~" H 4300 3650 50  0001 C CNN
 	1    4300 3650
 	-1   0    0    1   
@@ -957,7 +958,7 @@ AR Path="/5E9DF410/5EA38B87" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5EA38B87" Ref="D7"  Part="1" 
 F 0 "D7" V 4797 3078 50  0000 L CNN
 F 1 "LED 5V" V 4888 3078 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 4850 3000 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4850 3000 50  0001 C CNN
 F 3 "~" H 4850 3000 50  0001 C CNN
 	1    4850 3000
 	0    1    1    0   
@@ -1152,7 +1153,7 @@ AR Path="/5E9DF410/5EA981D7" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5EA981D7" Ref="J9"  Part="1" 
 F 0 "J9" H 4218 5367 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4218 5366 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4300 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4300 5600 50  0001 C CNN
 F 3 "~" H 4300 5600 50  0001 C CNN
 	1    4300 5600
 	-1   0    0    1   
@@ -1254,7 +1255,7 @@ AR Path="/5E9DF410/5EA98203" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5EA98203" Ref="D8"  Part="1" 
 F 0 "D8" V 4797 5028 50  0000 L CNN
 F 1 "LED 5V" V 4888 5028 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 4850 4950 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4850 4950 50  0001 C CNN
 F 3 "~" H 4850 4950 50  0001 C CNN
 	1    4850 4950
 	0    1    1    0   
@@ -1449,7 +1450,7 @@ AR Path="/5E9DF410/5EADE17F" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5EADE17F" Ref="J10"  Part="1" 
 F 0 "J10" H 7768 1467 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 7768 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 7850 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7850 1700 50  0001 C CNN
 F 3 "~" H 7850 1700 50  0001 C CNN
 	1    7850 1700
 	-1   0    0    1   
@@ -1551,7 +1552,7 @@ AR Path="/5E9DF410/5EADE1AB" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5EADE1AB" Ref="D9"  Part="1" 
 F 0 "D9" V 8347 1128 50  0000 L CNN
 F 1 "LED 5V" V 8438 1128 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 8400 1050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8400 1050 50  0001 C CNN
 F 3 "~" H 8400 1050 50  0001 C CNN
 	1    8400 1050
 	0    1    1    0   
@@ -1746,7 +1747,7 @@ AR Path="/5E9DF410/5EB1E25F" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5EB1E25F" Ref="J11"  Part="1" 
 F 0 "J11" H 7768 3417 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 7768 3416 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 7850 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7850 3650 50  0001 C CNN
 F 3 "~" H 7850 3650 50  0001 C CNN
 	1    7850 3650
 	-1   0    0    1   
@@ -1848,7 +1849,7 @@ AR Path="/5E9DF410/5EB1E28B" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5EB1E28B" Ref="D10"  Part="1" 
 F 0 "D10" V 8347 3078 50  0000 L CNN
 F 1 "LED 5V" V 8438 3078 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 8400 3000 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 8400 3000 50  0001 C CNN
 F 3 "~" H 8400 3000 50  0001 C CNN
 	1    8400 3000
 	0    1    1    0   
@@ -2226,7 +2227,7 @@ AR Path="/5E9DF410/5E9F7AF9" Ref="D?"  Part="1"
 AR Path="/5EB670BF/5E9F7AF9" Ref="D6"  Part="1" 
 F 0 "D6" V 4797 1128 50  0000 L CNN
 F 1 "LED 5V" V 4888 1128 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 4850 1050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4850 1050 50  0001 C CNN
 F 3 "~" H 4850 1050 50  0001 C CNN
 	1    4850 1050
 	0    1    1    0   
@@ -2328,7 +2329,7 @@ AR Path="/5E9DF410/5E9F7ACD" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5E9F7ACD" Ref="J7"  Part="1" 
 F 0 "J7" H 4218 1467 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 4218 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4300 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4300 1700 50  0001 C CNN
 F 3 "~" H 4300 1700 50  0001 C CNN
 	1    4300 1700
 	-1   0    0    1   
@@ -2456,7 +2457,7 @@ AR Path="/5E9DF410/5E85AD09" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5E85AD09" Ref="J4"  Part="1" 
 F 0 "J4" H 668 1467 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 668 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 750 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 750 1700 50  0001 C CNN
 F 3 "~" H 750 1700 50  0001 C CNN
 	1    750  1700
 	-1   0    0    1   
