@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Outputs_analog_24V_8pcs-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -63,7 +64,7 @@ U 1 1 5E80F530
 P 1550 2050
 F 0 "D1" V 1589 2128 50  0000 L CNN
 F 1 "LED" V 1498 2128 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 1550 2050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 1550 2050 50  0001 C CNN
 F 3 "~" H 1550 2050 50  0001 C CNN
 	1    1550 2050
 	0    1    -1   0   
@@ -202,7 +203,7 @@ U 1 1 5E820E6E
 P 2950 2050
 F 0 "D2" V 2989 2128 50  0000 L CNN
 F 1 "LED" V 2898 2128 50  0000 L CNN
-F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 2950 2050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2950 2050 50  0001 C CNN
 F 3 "~" H 2950 2050 50  0001 C CNN
 	1    2950 2050
 	0    1    -1   0   
@@ -252,33 +253,22 @@ U 5E830742
 F0 "Outputs" 50
 F1 "Outputs.sch" 50
 $EndSheet
-Text GLabel 1600 3600 0    50   Input ~ 0
-output_1
-Text GLabel 1600 3700 0    50   Input ~ 0
-output_2
-Text GLabel 1600 3800 0    50   Input ~ 0
-output_3
-Text GLabel 1600 3900 0    50   Input ~ 0
-output_4
 Text GLabel 1600 4300 0    50   Input ~ 0
+output_1
+Text GLabel 1600 4200 0    50   Input ~ 0
+output_2
+Text GLabel 1600 4100 0    50   Input ~ 0
+output_3
+Text GLabel 1600 4000 0    50   Input ~ 0
+output_4
+Text GLabel 1600 3700 0    50   Input ~ 0
 output_5
-Text GLabel 1600 4400 0    50   Input ~ 0
+Text GLabel 1600 3800 0    50   Input ~ 0
 output_6
-Text GLabel 1600 4500 0    50   Input ~ 0
+Text GLabel 1600 3900 0    50   Input ~ 0
 output_7
-Text GLabel 1600 4600 0    50   Input ~ 0
+Text GLabel 1600 3600 0    50   Input ~ 0
 output_8
-$Comp
-L Connector:Screw_Terminal_01x06 J3
-U 1 1 5EADD649
-P 3450 4000
-F 0 "J3" H 3530 3946 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" H 3530 3901 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 3450 4000 50  0001 C CNN
-F 3 "~" H 3450 4000 50  0001 C CNN
-	1    3450 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74HC595 U1
 U 1 1 5EB1AF3F
@@ -344,39 +334,78 @@ F 3 "" H 2550 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3600 3200 3600
-Wire Wire Line
-	3200 3600 3200 3800
-Wire Wire Line
-	3200 3800 3250 3800
-Wire Wire Line
-	2950 3800 3100 3800
-Wire Wire Line
-	3100 3800 3100 3900
-Wire Wire Line
-	3100 3900 3250 3900
-Wire Wire Line
-	2950 3900 3000 3900
-Wire Wire Line
-	3000 3900 3000 4000
-Wire Wire Line
-	3000 4000 3250 4000
-Wire Wire Line
-	2950 4100 3250 4100
-Wire Wire Line
-	2950 4200 3250 4200
-Wire Wire Line
 	2150 4500 2100 4500
 Wire Wire Line
 	2100 4500 2100 4800
 Wire Wire Line
-	2100 4800 3200 4800
-Wire Wire Line
-	3200 4800 3200 4300
-Wire Wire Line
-	3200 4300 3250 4300
-Wire Wire Line
 	2550 4700 2550 4850
 Wire Wire Line
 	2850 3400 3400 3400
+Wire Wire Line
+	1600 4300 2150 4300
+Wire Wire Line
+	1600 4200 2150 4200
+Wire Wire Line
+	1600 4100 2150 4100
+Wire Wire Line
+	1600 4000 2150 4000
+Wire Wire Line
+	1600 3600 2150 3600
+Wire Wire Line
+	1600 3900 2150 3900
+Wire Wire Line
+	1600 3700 2150 3700
+Wire Wire Line
+	1600 3800 2150 3800
+$Comp
+L Connector:Screw_Terminal_01x06 J3
+U 1 1 5EADD649
+P 3750 4000
+F 0 "J3" H 3830 3946 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 3830 3901 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 3750 4000 50  0001 C CNN
+F 3 "~" H 3750 4000 50  0001 C CNN
+	1    3750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4100 3400 4100
+Wire Wire Line
+	3400 4100 3400 3900
+Wire Wire Line
+	3400 3900 3550 3900
+Wire Wire Line
+	3550 4100 3500 4100
+Wire Wire Line
+	3500 4100 3500 4800
+Wire Wire Line
+	3500 4800 2100 4800
+Wire Wire Line
+	3200 4200 3200 3800
+Wire Wire Line
+	3200 3800 3550 3800
+Wire Wire Line
+	2950 4200 3200 4200
+Wire Wire Line
+	2950 3600 3300 3600
+Wire Wire Line
+	3300 3600 3300 4300
+Wire Wire Line
+	3300 4300 3550 4300
+Wire Wire Line
+	2950 3800 3100 3800
+Wire Wire Line
+	3100 3800 3100 4000
+Wire Wire Line
+	3100 4000 3550 4000
+Wire Wire Line
+	2950 3900 3000 3900
+Wire Wire Line
+	3000 3900 3000 4400
+Wire Wire Line
+	3000 4400 3400 4400
+Wire Wire Line
+	3400 4400 3400 4200
+Wire Wire Line
+	3400 4200 3550 4200
 $EndSCHEMATC
