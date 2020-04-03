@@ -19,7 +19,7 @@ U 1 1 5E80DC33
 P 1050 1450
 F 0 "J1" H 968 1217 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1130 1351 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1050 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 1450 50  0001 C CNN
 F 3 "~" H 1050 1450 50  0001 C CNN
 	1    1050 1450
 	-1   0    0    1   
@@ -158,7 +158,7 @@ U 1 1 5E820E56
 P 2450 1450
 F 0 "J2" H 2368 1217 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 2530 1351 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2450 1450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 1450 50  0001 C CNN
 F 3 "~" H 2450 1450 50  0001 C CNN
 	1    2450 1450
 	-1   0    0    1   
@@ -352,7 +352,7 @@ U 1 1 5EADD649
 P 3750 4000
 F 0 "J3" H 3830 3946 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" H 3830 3901 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 3750 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3750 4000 50  0001 C CNN
 F 3 "~" H 3750 4000 50  0001 C CNN
 	1    3750 4000
 	1    0    0    -1  
