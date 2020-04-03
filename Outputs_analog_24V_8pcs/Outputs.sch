@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Outputs_analog_24V_8pcs-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8

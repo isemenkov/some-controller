@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Outputs_analog_24V_8pcs-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -255,19 +254,19 @@ F1 "Outputs.sch" 50
 $EndSheet
 Text GLabel 1600 4300 0    50   Input ~ 0
 output_1
-Text GLabel 1600 4200 0    50   Input ~ 0
+Text GLabel 1600 4000 0    50   Input ~ 0
 output_2
 Text GLabel 1600 4100 0    50   Input ~ 0
 output_3
-Text GLabel 1600 4000 0    50   Input ~ 0
+Text GLabel 1600 4200 0    50   Input ~ 0
 output_4
-Text GLabel 1600 3700 0    50   Input ~ 0
+Text GLabel 1600 3600 0    50   Input ~ 0
 output_5
-Text GLabel 1600 3800 0    50   Input ~ 0
+Text GLabel 1600 3700 0    50   Input ~ 0
 output_6
 Text GLabel 1600 3900 0    50   Input ~ 0
 output_7
-Text GLabel 1600 3600 0    50   Input ~ 0
+Text GLabel 1600 3800 0    50   Input ~ 0
 output_8
 $Comp
 L 74xx:74HC595 U1
@@ -344,17 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4300 2150 4300
 Wire Wire Line
-	1600 4200 2150 4200
-Wire Wire Line
 	1600 4100 2150 4100
-Wire Wire Line
-	1600 4000 2150 4000
-Wire Wire Line
-	1600 3600 2150 3600
-Wire Wire Line
-	1600 3900 2150 3900
-Wire Wire Line
-	1600 3700 2150 3700
 Wire Wire Line
 	1600 3800 2150 3800
 $Comp
@@ -408,4 +397,14 @@ Wire Wire Line
 	3400 4400 3400 4200
 Wire Wire Line
 	3400 4200 3550 4200
+Wire Wire Line
+	1600 4200 2150 4200
+Wire Wire Line
+	1600 4000 2150 4000
+Wire Wire Line
+	1600 3700 2150 3700
+Wire Wire Line
+	1600 3900 2150 3900
+Wire Wire Line
+	1600 3600 2150 3600
 $EndSCHEMATC
