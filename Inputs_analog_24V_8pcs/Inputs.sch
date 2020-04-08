@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Inputs_analog_24V_8pcs-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -2457,7 +2456,7 @@ AR Path="/5E9DF410/5E85AD09" Ref="J?"  Part="1"
 AR Path="/5EB670BF/5E85AD09" Ref="J4"  Part="1" 
 F 0 "J4" H 668 1467 50  0000 C CNN
 F 1 "Screw_Terminal_01x03" H 668 1466 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 750 1700 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05503HBWC_1x03_P5.00mm_Horizontal" H 750 1700 50  0001 C CNN
 F 3 "~" H 750 1700 50  0001 C CNN
 	1    750  1700
 	-1   0    0    1   
